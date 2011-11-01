@@ -27,8 +27,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
 
     // Recupera el archivo de idioma para armar el diccionario de mensajes.
-    NSDictionary *diccTextos = [AppConfiguracion obtenerIdioma:@"en"]; // Idioma forzado
-    // NSDictionary *diccTextos = [AppConfiguracion obtenerIdioma]; // Idioma de la configuración
+    // NSDictionary *diccTextos = [AppConfiguracion obtenerIdioma:@"en"]; // Idioma forzado
+    NSDictionary *diccTextos = [AppConfiguracion obtenerIdioma]; // Idioma de la configuración
 
     // Conociendo la clave, accedemos a la propiedad.
     texto.text = [diccTextos objectForKey:@"TextoInicial"];
