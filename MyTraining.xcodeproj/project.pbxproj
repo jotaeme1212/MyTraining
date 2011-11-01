@@ -115,11 +115,11 @@
 		1DB988AC145F7B74000168A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1DB988AD145F7B74000168A0 /* MyTraining-Info.plist */,
 				1DB988D1145F7C38000168A0 /* AppConfig.plist */,
 				1DB988D2145F7C38000168A0 /* AppMensajes_en.plist */,
-				1DB988DA145F7CC0000168A0 /* InfoPlist.strings */,
 				1DB988D3145F7C38000168A0 /* AppMensajes_es.plist */,
+				1DB988AD145F7B74000168A0 /* MyTraining-Info.plist */,
+				1DB988DA145F7CC0000168A0 /* InfoPlist.strings */,
 				1DB988B1145F7B74000168A0 /* main.m */,
 				1DB988B3145F7B74000168A0 /* MyTraining-Prefix.pch */,
 			);
@@ -306,6 +306,7 @@
 				1DB988C1145F7B74000168A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
