@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  MyTraining
 //
-//  Created by Juan Manuel Marchese on 31-10-11.
+//  Created by Juan Manuel Marchese on 30-10-11.
 //  Copyright (c) 2011 JMM. All rights reserved.
 //
 
