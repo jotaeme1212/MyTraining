@@ -65,10 +65,15 @@
 	[super viewDidDisappear:animated];
 }
 
+// En este método se eligen las rotaciones válidas.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    // return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return (interfaceOrientation == UIInterfaceOrientationPortrait ||
+            interfaceOrientation == UIInterfaceOrientationLandscapeLeft ||
+            interfaceOrientation == UIInterfaceOrientationLandscapeRight);
+    // || interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown);
 }
 
 - (IBAction)cambiarLenguaje:(id)sender {
