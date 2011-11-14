@@ -25,6 +25,8 @@
 		1DB988DD145F7CF5000168A0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB988DC145F7CF5000168A0 /* MainStoryboard.storyboard */; };
 		1DB988E0145F7D19000168A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB988DF145F7D19000168A0 /* AppDelegate.m */; };
 		1DB988E3145F7D33000168A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB988E2145F7D33000168A0 /* ViewController.m */; };
+		1DE44CB21471D21C006C07A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE44CB11471D21C006C07A8 /* MapKit.framework */; };
+		1DE44CB51471D224006C07A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE44CB41471D224006C07A8 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		1DB988DF145F7D19000168A0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1DB988E1145F7D33000168A0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1DB988E2145F7D33000168A0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DE44CB11471D21C006C07A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1DE44CB41471D224006C07A8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE44CB51471D224006C07A8 /* CoreLocation.framework in Frameworks */,
+				1DE44CB21471D21C006C07A8 /* MapKit.framework in Frameworks */,
 				1DB988A6145F7B74000168A0 /* UIKit.framework in Frameworks */,
 				1DB988A8145F7B74000168A0 /* Foundation.framework in Frameworks */,
 				1DB988AA145F7B74000168A0 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +95,8 @@
 		1DB988A4145F7B74000168A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1DE44CB11471D21C006C07A8 /* MapKit.framework */,
+				1DE44CB41471D224006C07A8 /* CoreLocation.framework */,
 				1DB988A5145F7B74000168A0 /* UIKit.framework */,
 				1DB988A7145F7B74000168A0 /* Foundation.framework */,
 				1DB988A9145F7B74000168A0 /* CoreGraphics.framework */,
@@ -101,11 +109,10 @@
 			children = (
 				1DB988DE145F7D19000168A0 /* AppDelegate.h */,
 				1DB988DF145F7D19000168A0 /* AppDelegate.m */,
-				1DB988D7145F7C48000168A0 /* AppConfiguracion.h */,
-				1DB988D8145F7C48000168A0 /* AppConfiguracion.m */,
 				1DB988DC145F7CF5000168A0 /* MainStoryboard.storyboard */,
 				1DB988E1145F7D33000168A0 /* ViewController.h */,
 				1DB988E2145F7D33000168A0 /* ViewController.m */,
+				1DE44CB61471D2E3006C07A8 /* Sistema */,
 				1DB988C2145F7B9D000168A0 /* Img */,
 				1DB988AC145F7B74000168A0 /* Supporting Files */,
 			);
@@ -115,9 +122,6 @@
 		1DB988AC145F7B74000168A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1DB988D1145F7C38000168A0 /* AppConfig.plist */,
-				1DB988D2145F7C38000168A0 /* AppMensajes_en.plist */,
-				1DB988D3145F7C38000168A0 /* AppMensajes_es.plist */,
 				1DB988AD145F7B74000168A0 /* MyTraining-Info.plist */,
 				1DB988DA145F7CC0000168A0 /* InfoPlist.strings */,
 				1DB988B1145F7B74000168A0 /* main.m */,
@@ -136,6 +140,18 @@
 				1DB988C3145F7BB7000168A0 /* Default.png */,
 			);
 			name = Img;
+			sourceTree = "<group>";
+		};
+		1DE44CB61471D2E3006C07A8 /* Sistema */ = {
+			isa = PBXGroup;
+			children = (
+				1DB988D7145F7C48000168A0 /* AppConfiguracion.h */,
+				1DB988D8145F7C48000168A0 /* AppConfiguracion.m */,
+				1DB988D1145F7C38000168A0 /* AppConfig.plist */,
+				1DB988D2145F7C38000168A0 /* AppMensajes_en.plist */,
+				1DB988D3145F7C38000168A0 /* AppMensajes_es.plist */,
+			);
+			name = Sistema;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
