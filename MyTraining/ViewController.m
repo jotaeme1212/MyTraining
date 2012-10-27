@@ -95,7 +95,7 @@
 
 // Este método responde cada cierto período la nueva ubicación del usuario.
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
-    
+
     NSString *latitudStr;
 	NSString *longitudStr;
 	NSString *distanciaStr;
